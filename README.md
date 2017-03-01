@@ -1,0 +1,31 @@
+# CSE-565-Substitution-Cipher-Program
+
+Implemented monoalphabetic and polyalphabetic subsitution function on given text in order to generate cipher text.
+Displays the translation tables for both functions followed by frequency distributions.
+The input is a prose from one of Shakespeare's plays.
+
+Sample Output:
+
+Translation Table 1
+abcdefghijklmnopqrstuvwxyz
+adgjmpsvybehknqtwzcfilorux
+
+Translation Table 2
+abcdefghijklmnopqrstuvwxyz
+nsxchmrwbglqvafkpuzejotydi
+
+Monoalphabetic substitution function
+butsoftwhatlightthroughyonderwindowbreaksitistheeastandjulietisthesunarisefairsunandkilltheenviousmoonwhoisalreadysickandpalewithgriefthatthouhermaidartfarmorefairthanshebenothermaidsincesheisenvioushervestalliveryisbutsickandgreenandnonebutfoolsdowearitcastitoffitismyladyoitismylove
+difcqpfovafhysvffvzqisvuqnjmzoynjqodzmaecyfycfvmmacfanjbihymfycfvmcinazycmpayzcinanjeyhhfvmmnlyqickqqnovqycahzmajucygeanjtahmoyfvszympfvaffvqivmzkayjazfpazkqzmpayzfvancvmdmnqfvmzkayjcyngmcvmycmnlyqicvmzlmcfahhylmzuycdifcygeanjszmmnanjnqnmdifpqqhcjqomazyfgacfyfqppyfyckuhajuqyfyckuhqlm
+
+Frequency Distribution for Monoalphabetic substitution function
+a	b	c	d	e	f	g	h	i	j	k	l	m	n	o	p	q	r	s	t	u	v	w	x	y	z	
+24	1	23	5	4	26	4	11	10	12	6	5	28	18	6	8	19	0	4	1	6	17	0	0	29	17	
+
+Polyalphabetic substitution function
+butsoftwhatlightthroughyonderwindowbreaksitistheeastandjulietisthesunarisefairsunandkilltheenviousmoonwhoisalreadysickandpalewithgriefthatthouhermaidartfarmorefairthanshebenothermaidsincesheisenvioushervestalliveryisbutsickandgreenandnonebutfoolsdowearitcastitoffitismyladyoitismylove
+siecfpeowaehbswfevuqjswufncmuobncqtdumnezyeyzfwmhazfnncbjhbmeyzfwmziaauyzmmabzziaaajlyqhevhmalbqjcvqfntvfyzaqzhacuzyxennctnhhobfwsuyhpevnfevfiwmuknycaufmaukfzhpnyufwaacwmsmaqevhzvabjzyaghcwmbchnoyfizvhzomzfnhqyomuubcsiecbglaajrzhmaaajaqamsiepfqqccqtmnzbfxazfbffpmyeyzkdhnjdqbfbcvuqqom
+
+Frequency Distribution for Polyalphabetic substitution function
+a	b	c	d	e	f	g	h	i	j	k	l	m	n	o	p	q	r	s	t	u	v	w	x	y	z	
+26	15	16	3	15	22	2	17	7	8	3	3	20	16	7	5	15	1	7	4	14	10	10	2	15	21	
